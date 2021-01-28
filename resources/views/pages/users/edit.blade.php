@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <html class="loading" lang="en" data-textdirection="ltr">
   <!-- BEGIN: Head-->
   
-<!-- Mirrored from pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/page-account-settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2021 11:01:11 GMT -->
+<!-- Mirrored from pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/app-user-edit.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2021 11:01:27 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Account Settings - Vuexy - Bootstrap HTML admin template</title>
+    <title>User Edit - Vuexy - Bootstrap HTML admin template</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.html">
     <link rel="shortcut icon" type="image/x-icon" href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
@@ -44,9 +44,9 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/pickers/form-pickadate.min.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/pickers/form-flat-pickr.min.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-user.min.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -419,7 +419,7 @@ License: You must have a valid license purchased only from themeforest(the above
               </li>
               <li><a class="d-flex align-items-center" href="app-user-view.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="View">View</span></a>
               </li>
-              <li><a class="d-flex align-items-center" href="app-user-edit.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Edit">Edit</span></a>
+              <li class="active"><a class="d-flex align-items-center" href="app-user-edit.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Edit">Edit</span></a>
               </li>
             </ul>
           </li>
@@ -445,7 +445,7 @@ License: You must have a valid license purchased only from themeforest(the above
                   </li>
                 </ul>
               </li>
-              <li class="active"><a class="d-flex align-items-center" href="page-account-settings.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Account Settings">Account Settings</span></a>
+              <li><a class="d-flex align-items-center" href="page-account-settings.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Account Settings">Account Settings</span></a>
               </li>
               <li><a class="d-flex align-items-center" href="page-profile.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Profile">Profile</span></a>
               </li>
@@ -706,580 +706,600 @@ License: You must have a valid license purchased only from themeforest(the above
       <div class="header-navbar-shadow"></div>
       <div class="content-wrapper">
         <div class="content-header row">
-          <div class="content-header-left col-md-9 col-12 mb-2">
-            <div class="row breadcrumbs-top">
-              <div class="col-12">
-                <h2 class="content-header-title float-left mb-0">Account Settings</h2>
-                <div class="breadcrumb-wrapper">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index-2.html">Home</a>
-                    </li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a>
-                    </li>
-                    <li class="breadcrumb-item active"> Account Settings
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
-            <div class="form-group breadcrumb-right">
-              <div class="dropdown">
-                <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="grid"></i></button>
-                <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="app-todo.html"><i class="mr-1" data-feather="check-square"></i><span class="align-middle">Todo</span></a><a class="dropdown-item" href="app-chat.html"><i class="mr-1" data-feather="message-square"></i><span class="align-middle">Chat</span></a><a class="dropdown-item" href="app-email.html"><i class="mr-1" data-feather="mail"></i><span class="align-middle">Email</span></a><a class="dropdown-item" href="app-calendar.html"><i class="mr-1" data-feather="calendar"></i><span class="align-middle">Calendar</span></a></div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="content-body"><!-- account setting page -->
-<section id="page-account-settings">
-  <div class="row">
-    <!-- left menu section -->
-    <div class="col-md-3 mb-2 mb-md-0">
-      <ul class="nav nav-pills flex-column nav-left">
-        <!-- general -->
+        <div class="content-body"><!-- users edit start -->
+<section class="app-user-edit">
+  <div class="card">
+    <div class="card-body">
+      <ul class="nav nav-pills" role="tablist">
         <li class="nav-item">
           <a
-            class="nav-link active"
-            id="account-pill-general"
-            data-toggle="pill"
-            href="#account-vertical-general"
-            aria-expanded="true"
+            class="nav-link d-flex align-items-center active"
+            id="account-tab"
+            data-toggle="tab"
+            href="#account"
+            aria-controls="account"
+            role="tab"
+            aria-selected="true"
           >
-            <i data-feather="user" class="font-medium-3 mr-1"></i>
-            <span class="font-weight-bold">General</span>
+            <i data-feather="user"></i><span class="d-none d-sm-block">Account</span>
           </a>
         </li>
-        <!-- change password -->
         <li class="nav-item">
           <a
-            class="nav-link"
-            id="account-pill-password"
-            data-toggle="pill"
-            href="#account-vertical-password"
-            aria-expanded="false"
+            class="nav-link d-flex align-items-center"
+            id="information-tab"
+            data-toggle="tab"
+            href="#information"
+            aria-controls="information"
+            role="tab"
+            aria-selected="false"
           >
-            <i data-feather="lock" class="font-medium-3 mr-1"></i>
-            <span class="font-weight-bold">Change Password</span>
+            <i data-feather="info"></i><span class="d-none d-sm-block">Information</span>
           </a>
         </li>
-        <!-- information -->
         <li class="nav-item">
           <a
-            class="nav-link"
-            id="account-pill-info"
-            data-toggle="pill"
-            href="#account-vertical-info"
-            aria-expanded="false"
+            class="nav-link d-flex align-items-center"
+            id="social-tab"
+            data-toggle="tab"
+            href="#social"
+            aria-controls="social"
+            role="tab"
+            aria-selected="false"
           >
-            <i data-feather="info" class="font-medium-3 mr-1"></i>
-            <span class="font-weight-bold">Information</span>
-          </a>
-        </li>
-        <!-- social -->
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            id="account-pill-social"
-            data-toggle="pill"
-            href="#account-vertical-social"
-            aria-expanded="false"
-          >
-            <i data-feather="link" class="font-medium-3 mr-1"></i>
-            <span class="font-weight-bold">Social</span>
-          </a>
-        </li>
-        <!-- notification -->
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            id="account-pill-notifications"
-            data-toggle="pill"
-            href="#account-vertical-notifications"
-            aria-expanded="false"
-          >
-            <i data-feather="bell" class="font-medium-3 mr-1"></i>
-            <span class="font-weight-bold">Notifications</span>
+            <i data-feather="share-2"></i><span class="d-none d-sm-block">Social</span>
           </a>
         </li>
       </ul>
-    </div>
-    <!--/ left menu section -->
-
-    <!-- right content section -->
-    <div class="col-md-9">
-      <div class="card">
-        <div class="card-body">
-          <div class="tab-content">
-            <!-- general tab -->
-            <div
-              role="tabpanel"
-              class="tab-pane active"
-              id="account-vertical-general"
-              aria-labelledby="account-pill-general"
-              aria-expanded="true"
-            >
-              <!-- header media -->
-              <div class="media">
-                <a href="javascript:void(0);" class="mr-25">
-                  <img
-                    src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
-                    id="account-upload-img"
-                    class="rounded mr-50"
-                    alt="profile image"
-                    height="80"
-                    width="80"
+      <div class="tab-content">
+        <!-- Account Tab starts -->
+        <div class="tab-pane active" id="account" aria-labelledby="account-tab" role="tabpanel">
+          <!-- users edit media object start -->
+          <div class="media mb-2">
+            <img
+              src="../../../app-assets/images/avatars/7.png"
+              alt="users avatar"
+              class="user-avatar users-avatar-shadow rounded mr-2 my-25 cursor-pointer"
+              height="90"
+              width="90"
+            />
+            <div class="media-body mt-50">
+              <h4>Eleanor Aguilar</h4>
+              <div class="col-12 d-flex mt-1 px-0">
+                <label class="btn btn-primary mr-75 mb-0" for="change-picture">
+                  <span class="d-none d-sm-block">Change</span>
+                  <input
+                    class="form-control"
+                    type="file"
+                    id="change-picture"
+                    hidden
+                    accept="image/png, image/jpeg, image/jpg"
                   />
-                </a>
-                <!-- upload and reset button -->
-                <div class="media-body mt-75 ml-1">
-                  <label for="account-upload" class="btn btn-sm btn-primary mb-75 mr-75">Upload</label>
-                  <input type="file" id="account-upload" hidden accept="image/*" />
-                  <button class="btn btn-sm btn-outline-secondary mb-75">Reset</button>
-                  <p>Allowed JPG, GIF or PNG. Max size of 800kB</p>
-                </div>
-                <!--/ upload and reset button -->
-              </div>
-              <!--/ header media -->
-
-              <!-- form -->
-              <form class="validate-form mt-2">
-                <div class="row">
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-username">Username</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="account-username"
-                        name="username"
-                        placeholder="Username"
-                        value="johndoe"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-name">Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="account-name"
-                        name="name"
-                        placeholder="Name"
-                        value="John Doe"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-e-mail">E-mail</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="account-e-mail"
-                        name="email"
-                        placeholder="Email"
-                        value="granger007@hogward.com"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-company">Company</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="account-company"
-                        name="company"
-                        placeholder="Company name"
-                        value="Crystal Technologies"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 mt-75">
-                    <div class="alert alert-warning mb-50" role="alert">
-                      <h4 class="alert-heading">Your email is not confirmed. Please check your inbox.</h4>
-                      <div class="alert-body">
-                        <a href="javascript: void(0);" class="alert-link">Resend confirmation</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary mt-2 mr-1">Save changes</button>
-                    <button type="reset" class="btn btn-outline-secondary mt-2">Cancel</button>
-                  </div>
-                </div>
-              </form>
-              <!--/ form -->
-            </div>
-            <!--/ general tab -->
-
-            <!-- change password -->
-            <div
-              class="tab-pane fade"
-              id="account-vertical-password"
-              role="tabpanel"
-              aria-labelledby="account-pill-password"
-              aria-expanded="false"
-            >
-              <!-- form -->
-              <form class="validate-form">
-                <div class="row">
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-old-password">Old Password</label>
-                      <div class="input-group form-password-toggle input-group-merge">
-                        <input
-                          type="password"
-                          class="form-control"
-                          id="account-old-password"
-                          name="password"
-                          placeholder="Old Password"
-                        />
-                        <div class="input-group-append">
-                          <div class="input-group-text cursor-pointer">
-                            <i data-feather="eye"></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-new-password">New Password</label>
-                      <div class="input-group form-password-toggle input-group-merge">
-                        <input
-                          type="password"
-                          id="account-new-password"
-                          name="new-password"
-                          class="form-control"
-                          placeholder="New Password"
-                        />
-                        <div class="input-group-append">
-                          <div class="input-group-text cursor-pointer">
-                            <i data-feather="eye"></i>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-retype-new-password">Retype New Password</label>
-                      <div class="input-group form-password-toggle input-group-merge">
-                        <input
-                          type="password"
-                          class="form-control"
-                          id="account-retype-new-password"
-                          name="confirm-new-password"
-                          placeholder="New Password"
-                        />
-                        <div class="input-group-append">
-                          <div class="input-group-text cursor-pointer"><i data-feather="eye"></i></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary mr-1 mt-1">Save changes</button>
-                    <button type="reset" class="btn btn-outline-secondary mt-1">Cancel</button>
-                  </div>
-                </div>
-              </form>
-              <!--/ form -->
-            </div>
-            <!--/ change password -->
-
-            <!-- information -->
-            <div
-              class="tab-pane fade"
-              id="account-vertical-info"
-              role="tabpanel"
-              aria-labelledby="account-pill-info"
-              aria-expanded="false"
-            >
-              <!-- form -->
-              <form class="validate-form">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="form-group">
-                      <label for="accountTextarea">Bio</label>
-                      <textarea
-                        class="form-control"
-                        id="accountTextarea"
-                        rows="4"
-                        placeholder="Your Bio data here..."
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-birth-date">Birth date</label>
-                      <input
-                        type="text"
-                        class="form-control flatpickr"
-                        placeholder="Birth date"
-                        id="account-birth-date"
-                        name="dob"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="accountSelect">Country</label>
-                      <select class="form-control" id="accountSelect">
-                        <option>USA</option>
-                        <option>India</option>
-                        <option>Canada</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-website">Website</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="website"
-                        id="account-website"
-                        placeholder="Website address"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-phone">Phone</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="account-phone"
-                        placeholder="Phone number"
-                        value="(+656) 254 2568"
-                        name="phone"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary mt-1 mr-1">Save changes</button>
-                    <button type="reset" class="btn btn-outline-secondary mt-1">Cancel</button>
-                  </div>
-                </div>
-              </form>
-              <!--/ form -->
-            </div>
-            <!--/ information -->
-
-            <!-- social -->
-            <div
-              class="tab-pane fade"
-              id="account-vertical-social"
-              role="tabpanel"
-              aria-labelledby="account-pill-social"
-              aria-expanded="false"
-            >
-              <!-- form -->
-              <form class="validate-form">
-                <div class="row">
-                  <!-- social header -->
-                  <div class="col-12">
-                    <div class="d-flex align-items-center mb-2">
-                      <i data-feather="link" class="font-medium-3"></i>
-                      <h4 class="mb-0 ml-75">Social Links</h4>
-                    </div>
-                  </div>
-                  <!-- twitter link input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-twitter">Twitter</label>
-                      <input
-                        type="text"
-                        id="account-twitter"
-                        class="form-control"
-                        placeholder="Add link"
-                        value="https://www.twitter.com/"
-                      />
-                    </div>
-                  </div>
-                  <!-- facebook link input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-facebook">Facebook</label>
-                      <input type="text" id="account-facebook" class="form-control" placeholder="Add link" />
-                    </div>
-                  </div>
-                  <!-- google plus input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-google">Google+</label>
-                      <input type="text" id="account-google" class="form-control" placeholder="Add link" />
-                    </div>
-                  </div>
-                  <!-- linkedin link input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-linkedin">LinkedIn</label>
-                      <input
-                        type="text"
-                        id="account-linkedin"
-                        class="form-control"
-                        placeholder="Add link"
-                        value="https://www.linkedin.com/"
-                      />
-                    </div>
-                  </div>
-                  <!-- instagram link input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-instagram">Instagram</label>
-                      <input type="text" id="account-instagram" class="form-control" placeholder="Add link" />
-                    </div>
-                  </div>
-                  <!-- Quora link input -->
-                  <div class="col-12 col-sm-6">
-                    <div class="form-group">
-                      <label for="account-quora">Quora</label>
-                      <input type="text" id="account-quora" class="form-control" placeholder="Add link" />
-                    </div>
-                  </div>
-
-                  <!-- divider -->
-                  <div class="col-12">
-                    <hr class="my-2" />
-                  </div>
-
-                  <div class="col-12 mt-1">
-                    <!-- profile connection header -->
-                    <div class="d-flex align-items-center mb-3">
-                      <i data-feather="user" class="font-medium-3"></i>
-                      <h4 class="mb-0 ml-75">Profile Connections</h4>
-                    </div>
-
-                    <div class="row">
-                      <!-- twitter user -->
-                      <div class="col-6 col-md-3 text-center mb-1">
-                        <p class="font-weight-bold">Your Twitter</p>
-                        <div class="avatar mb-1">
-                          <span class="avatar-content">
-                            <img
-                              src="../../../app-assets/images/avatars/11-small.png"
-                              alt="avatar img"
-                              width="40"
-                              height="40"
-                            />
-                          </span>
-                        </div>
-                        <p class="mb-0">@johndoe</p>
-                        <a href="javascript:void(0)">Disconnect</a>
-                      </div>
-                      <!-- facebook button -->
-                      <div class="col-6 col-md-3 text-center mb-1">
-                        <p class="font-weight-bold mb-2">Your Facebook</p>
-                        <button class="btn btn-outline-primary">Connect</button>
-                      </div>
-                      <!-- google user -->
-                      <div class="col-6 col-md-3 text-center mb-1">
-                        <p class="font-weight-bold">Your Google</p>
-                        <div class="avatar mb-1">
-                          <span class="avatar-content">
-                            <img
-                              src="../../../app-assets/images/avatars/3-small.png"
-                              alt="avatar img"
-                              width="40"
-                              height="40"
-                            />
-                          </span>
-                        </div>
-                        <p class="mb-0">@luraweber</p>
-                        <a href="javascript:void(0)">Disconnect</a>
-                      </div>
-                      <!-- github button -->
-                      <div class="col-6 col-md-3 text-center mb-2">
-                        <p class="font-weight-bold mb-1">Your GitHub</p>
-                        <button class="btn btn-outline-primary">Connect</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <!-- submit and cancel button -->
-                    <button type="submit" class="btn btn-primary mr-1 mt-1">Save changes</button>
-                    <button type="reset" class="btn btn-outline-secondary mt-1">Cancel</button>
-                  </div>
-                </div>
-              </form>
-              <!--/ form -->
-            </div>
-            <!--/ social -->
-
-            <!-- notifications -->
-            <div
-              class="tab-pane fade"
-              id="account-vertical-notifications"
-              role="tabpanel"
-              aria-labelledby="account-pill-notifications"
-              aria-expanded="false"
-            >
-              <div class="row">
-                <h6 class="section-label mx-1 mb-2">Activity</h6>
-                <div class="col-12 mb-2">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" checked id="accountSwitch1" />
-                    <label class="custom-control-label" for="accountSwitch1">
-                      Email me when someone comments onmy article
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12 mb-2">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" checked id="accountSwitch2" />
-                    <label class="custom-control-label" for="accountSwitch2">
-                      Email me when someone answers on my form
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12 mb-2">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="accountSwitch3" />
-                    <label class="custom-control-label" for="accountSwitch3">Email me hen someone follows me</label>
-                  </div>
-                </div>
-                <h6 class="section-label mx-1 mt-2">Application</h6>
-                <div class="col-12 mt-1 mb-2">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" checked id="accountSwitch4" />
-                    <label class="custom-control-label" for="accountSwitch4">News and announcements</label>
-                  </div>
-                </div>
-                <div class="col-12 mb-2">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" checked id="accountSwitch6" />
-                    <label class="custom-control-label" for="accountSwitch6">Weekly product updates</label>
-                  </div>
-                </div>
-                <div class="col-12 mb-75">
-                  <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="accountSwitch5" />
-                    <label class="custom-control-label" for="accountSwitch5">Weekly blog digest</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary mt-2 mr-1">Save changes</button>
-                  <button type="reset" class="btn btn-outline-secondary mt-2">Cancel</button>
-                </div>
+                  <span class="d-block d-sm-none">
+                    <i class="mr-0" data-feather="edit"></i>
+                  </span>
+                </label>
+                <button class="btn btn-outline-secondary d-none d-sm-block">Remove</button>
+                <button class="btn btn-outline-secondary d-block d-sm-none">
+                  <i class="mr-0" data-feather="trash-2"></i>
+                </button>
               </div>
             </div>
-            <!--/ notifications -->
           </div>
+          <!-- users edit media object ends -->
+          <!-- users edit account form start -->
+          <form class="form-validate">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                    value="eleanor.aguilar"
+                    name="username"
+                    id="username"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    value="Eleanor Aguilar"
+                    name="name"
+                    id="name"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    value="eleanor.aguilar@gmail.com"
+                    name="email"
+                    id="email"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="status">Status</label>
+                  <select class="form-control" id="status">
+                    <option>Active</option>
+                    <option>Blocked</option>
+                    <option>Deactivated</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="role">Role</label>
+                  <select class="form-control" id="role">
+                    <option>Admin</option>
+                    <option>User</option>
+                    <option>Staff</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="company">Company</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    value="WinDon Technologies Pvt Ltd"
+                    placeholder="Company name"
+                    id="company"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="table-responsive border rounded mt-1">
+                  <h6 class="py-1 mx-1 mb-0 font-medium-2">
+                    <i data-feather="lock" class="font-medium-3 mr-25"></i>
+                    <span class="align-middle">Permission</span>
+                  </h6>
+                  <table class="table table-striped table-borderless">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>Module</th>
+                        <th>Read</th>
+                        <th>Write</th>
+                        <th>Create</th>
+                        <th>Delete</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Admin</td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="admin-read" checked />
+                            <label class="custom-control-label" for="admin-read"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="admin-write" />
+                            <label class="custom-control-label" for="admin-write"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="admin-create" />
+                            <label class="custom-control-label" for="admin-create"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="admin-delete" />
+                            <label class="custom-control-label" for="admin-delete"></label>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Staff</td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="staff-read" />
+                            <label class="custom-control-label" for="staff-read"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="staff-write" checked />
+                            <label class="custom-control-label" for="staff-write"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="staff-create" />
+                            <label class="custom-control-label" for="staff-create"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="staff-delete" />
+                            <label class="custom-control-label" for="staff-delete"></label>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Author</td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="author-read" checked />
+                            <label class="custom-control-label" for="author-read"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="author-write" />
+                            <label class="custom-control-label" for="author-write"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="author-create" checked />
+                            <label class="custom-control-label" for="author-create"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="author-delete" />
+                            <label class="custom-control-label" for="author-delete"></label>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Contributor</td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="contributor-read" />
+                            <label class="custom-control-label" for="contributor-read"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="contributor-write" />
+                            <label class="custom-control-label" for="contributor-write"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="contributor-create" />
+                            <label class="custom-control-label" for="contributor-create"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="contributor-delete" />
+                            <label class="custom-control-label" for="contributor-delete"></label>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>User</td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="user-read" />
+                            <label class="custom-control-label" for="user-read"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="user-create" />
+                            <label class="custom-control-label" for="user-create"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="user-write" />
+                            <label class="custom-control-label" for="user-write"></label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="user-delete" checked />
+                            <label class="custom-control-label" for="user-delete"></label>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="col-12 d-flex flex-sm-row flex-column mt-2">
+                <button type="submit" class="btn btn-primary mb-1 mb-sm-0 mr-0 mr-sm-1">Save Changes</button>
+                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+              </div>
+            </div>
+          </form>
+          <!-- users edit account form ends -->
         </div>
+        <!-- Account Tab ends -->
+
+        <!-- Information Tab starts -->
+        <div class="tab-pane" id="information" aria-labelledby="information-tab" role="tabpanel">
+          <!-- users edit Info form start -->
+          <form class="form-validate">
+            <div class="row mt-1">
+              <div class="col-12">
+                <h4 class="mb-1">
+                  <i data-feather="user" class="font-medium-4 mr-25"></i>
+                  <span class="align-middle">Personal Information</span>
+                </h4>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="birth">Birth date</label>
+                  <input
+                    id="birth"
+                    type="text"
+                    class="form-control birthdate-picker"
+                    name="dob"
+                    placeholder="YYYY-MM-DD"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="mobile">Mobile</label>
+                  <input id="mobile" type="text" class="form-control" value="&#43;6595895857" name="phone" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="website">Website</label>
+                  <input
+                    id="website"
+                    type="text"
+                    class="form-control"
+                    placeholder="Website here..."
+                    value="https://rowboat.com/insititious/Angelo"
+                    name="website"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="languages">Languages</label>
+                  <select id="languages" class="form-control">
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French" selected>French</option>
+                    <option value="Russian">Russian</option>
+                    <option value="German">German</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Sanskrit">Sanskrit</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label class="d-block mb-1">Gender</label>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="male" name="gender" class="custom-control-input" />
+                    <label class="custom-control-label" for="male">Male</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="female" name="gender" class="custom-control-input" checked />
+                    <label class="custom-control-label" for="female">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label class="d-block mb-1">Contact Options</label>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="email-cb" checked />
+                    <label class="custom-control-label" for="email-cb">Email</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="message" checked />
+                    <label class="custom-control-label" for="message">Message</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="phone" />
+                    <label class="custom-control-label" for="phone">Phone</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <h4 class="mb-1 mt-2">
+                  <i data-feather="map-pin" class="font-medium-4 mr-25"></i>
+                  <span class="align-middle">Address</span>
+                </h4>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="address-1">Address Line 1</label>
+                  <input
+                    id="address-1"
+                    type="text"
+                    class="form-control"
+                    value="A-65, Belvedere Streets"
+                    name="address"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="address-2">Address Line 2</label>
+                  <input id="address-2" type="text" class="form-control" placeholder="T-78, Groove Street" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="postcode">Postcode</label>
+                  <input id="postcode" type="text" class="form-control" placeholder="597626" name="zip" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input id="city" type="text" class="form-control" value="New York" name="city" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input id="state" type="text" class="form-control" name="state" placeholder="Manhattan" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="form-group">
+                  <label for="country">Country</label>
+                  <input id="country" type="text" class="form-control" name="country" placeholder="United States" />
+                </div>
+              </div>
+              <div class="col-12 d-flex flex-sm-row flex-column mt-2">
+                <button type="submit" class="btn btn-primary mb-1 mb-sm-0 mr-0 mr-sm-1">Save Changes</button>
+                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+              </div>
+            </div>
+          </form>
+          <!-- users edit Info form ends -->
+        </div>
+        <!-- Information Tab ends -->
+
+        <!-- Social Tab starts -->
+        <div class="tab-pane" id="social" aria-labelledby="social-tab" role="tabpanel">
+          <!-- users edit social form start -->
+          <form class="form-validate">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="twitter-input">Twitter</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">
+                      <i data-feather="twitter" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="twitter-input"
+                    type="text"
+                    class="form-control"
+                    value="https://www.twitter.com/adoptionism744"
+                    placeholder="https://www.twitter.com/"
+                    aria-describedby="basic-addon3"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="facebook-input">Facebook</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon4">
+                      <i data-feather="facebook" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="facebook-input"
+                    type="text"
+                    class="form-control"
+                    value="https://www.facebook.com/adoptionism664"
+                    placeholder="https://www.facebook.com/"
+                    aria-describedby="basic-addon4"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="instagram-input">Instagram</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon5">
+                      <i data-feather="instagram" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="instagram-input"
+                    type="text"
+                    class="form-control"
+                    value="https://www.instagram.com/adopt-ionism744"
+                    placeholder="https://www.instagram.com/"
+                    aria-describedby="basic-addon5"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="github-input">Github</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon9">
+                      <i data-feather="github" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="github-input"
+                    type="text"
+                    class="form-control"
+                    value="https://www.github.com/madop818"
+                    placeholder="https://www.github.com/"
+                    aria-describedby="basic-addon9"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="codepen-input">Codepen</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon12">
+                      <i data-feather="codepen" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="codepen-input"
+                    type="text"
+                    class="form-control"
+                    value="https://www.codepen.com/adoptism243"
+                    placeholder="https://www.codepen.com/"
+                    aria-describedby="basic-addon12"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 form-group">
+                <label for="slack-input">Slack</label>
+                <div class="input-group input-group-merge">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon11">
+                      <i data-feather="slack" class="font-medium-2"></i>
+                    </span>
+                  </div>
+                  <input
+                    id="slack-input"
+                    type="text"
+                    class="form-control"
+                    value="@adoptionism744"
+                    placeholder="https://www.slack.com/"
+                    aria-describedby="basic-addon11"
+                  />
+                </div>
+              </div>
+
+              <div class="col-12 d-flex flex-sm-row flex-column mt-2">
+                <button type="submit" class="btn btn-primary mb-1 mb-sm-0 mr-0 mr-sm-1">Save Changes</button>
+                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+              </div>
+            </div>
+          </form>
+          <!-- users edit social form ends -->
+        </div>
+        <!-- Social Tab ends -->
       </div>
     </div>
-    <!--/ right content section -->
   </div>
 </section>
-<!-- / account setting page -->
+<!-- users edit ends -->
 
         </div>
       </div>
@@ -1460,7 +1480,6 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN: Page Vendor JS-->
     <script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
     <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
-    <script src="../../../app-assets/vendors/js/extensions/dropzone.min.js"></script>
     <script src="../../../app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
     <!-- END: Page Vendor JS-->
 
@@ -1471,7 +1490,8 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="../../../app-assets/js/scripts/pages/page-account-settings.min.js"></script>
+    <script src="../../../app-assets/js/scripts/pages/app-user-edit.min.js"></script>
+    <script src="../../../app-assets/js/scripts/components/components-navs.min.js"></script>
     <!-- END: Page JS-->
 
     <script>
@@ -1484,5 +1504,5 @@ License: You must have a valid license purchased only from themeforest(the above
   </body>
   <!-- END: Body-->
 
-<!-- Mirrored from pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/page-account-settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2021 11:01:12 GMT -->
+<!-- Mirrored from pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/app-user-edit.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2021 11:01:27 GMT -->
 </html>
