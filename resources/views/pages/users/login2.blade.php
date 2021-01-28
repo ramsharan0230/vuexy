@@ -69,7 +69,15 @@
             </div>
             <button class="btn btn-primary btn-block" tabindex="4">Sign in</button>
           </form>
-          <p class="text-center mt-2"><span>New on our platform?</span><a href="{{ route('register2') }}"><span>&nbsp;Create an account</span></a></p>
+          <p class="text-center mt-2">
+            <a href="{{ ('register2') }}">
+              <span style="text-decoration:underline">Create an account</span>
+            </a>
+
+            <a href="{{ ('dashboard') }}" class="btn btn-primary btn-sm ml-2">
+              <span>Home</span>
+            </a>
+          </p>
           <div class="divider my-2">
             <div class="divider-text">or</div>
           </div>

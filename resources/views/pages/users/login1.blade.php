@@ -117,9 +117,12 @@
           </form>
 
           <p class="text-center mt-2">
-            <span>New on our platform?</span>
             <a href="{{ ('register1') }}">
-              <span>Create an account</span>
+              <span style="text-decoration:underline">Create an account</span>
+            </a>
+
+            <a href="{{ ('dashboard') }}" class="btn btn-primary btn-sm ml-2">
+              <span>Home</span>
             </a>
           </p>
 
