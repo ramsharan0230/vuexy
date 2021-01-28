@@ -108,8 +108,9 @@
             </div>
             <div class="form-group">
               <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="remember-me" tabindex="3" />
-                <label class="custom-control-label" for="remember-me"> Remember Me </label>
+                    <input class="custom-control-input" type="checkbox" id="remember-me" tabindex="3" />
+                    <label class="custom-control-label" for="remember-me"> Remember Me</label>
+                    <a href="{{ route('login2') }}" class="btn btn-primary btn-sm pull-right ml-4"><span class="pull-right">Login2</span></a>
               </div>
             </div>
             <button class="btn btn-primary btn-block" tabindex="4">Sign in</button>
