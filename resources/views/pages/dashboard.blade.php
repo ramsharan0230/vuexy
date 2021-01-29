@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Booked Seat Report')
+@section('title','Dashboard')
 @push('styles')
 @endpush
 @section('main-content')
