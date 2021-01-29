@@ -65,13 +65,13 @@
                 </g>
               </g>
             </svg>
-            <h2 class="brand-text text-primary ml-1">Vuexy</h2>
+            <h2 class="brand-text text-primary ml-1">Aa24Inspect</h2>
           </a>
 
           <h4 class="card-title mb-1">Reset Password 🔒</h4>
           <p class="card-text mb-2">Your new password must be different from previously used passwords</p>
 
-          <form class="auth-reset-password-form mt-2" action="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/page-auth-login-v1.html" method="POST">
+          <form class="auth-reset-password-form mt-2" action="#" method="POST">
             <div class="form-group">
               <div class="d-flex justify-content-between">
                 <label for="reset-password-new">New Password</label>

@@ -32,7 +32,7 @@
                     </g>
                   </g>
                 </svg>
-                <h2 class="brand-text text-primary ml-1">Vuexy</h2></a>
+                <h2 class="brand-text text-primary ml-1">Aa24Inspect</h2></a>
               <!-- /Brand logo-->
               <!-- Left Text-->
               <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
@@ -44,7 +44,7 @@
                 <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
                   <h2 class="card-title font-weight-bold mb-1">Forgot Password? 🔒</h2>
                   <p class="card-text mb-2">Enter your email and we'll send you instructions to reset your password</p>
-                  <form class="auth-forgot-password-form mt-2" action="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/page-auth-reset-password-v2.html" method="POST">
+                  <form class="auth-forgot-password-form mt-2" action="#" method="POST">
                     <div class="form-group">
                       <label class="form-label" for="forgot-password-email">Email</label>
                       <input class="form-control" id="forgot-password-email" type="text" name="forgot-password-email" placeholder="john@example.com" aria-describedby="forgot-password-email" autofocus="" tabindex="1"/>

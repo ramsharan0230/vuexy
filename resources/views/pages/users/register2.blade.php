@@ -30,7 +30,7 @@
             </g>
           </g>
         </svg>
-        <h2 class="brand-text text-primary ml-1">Vuexy</h2></a>
+        <h2 class="brand-text text-primary ml-1">Aa24Inspect</h2></a>
       <!-- /Brand logo-->
       <!-- Left Text-->
       <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
@@ -42,7 +42,7 @@
         <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
           <h2 class="card-title font-weight-bold mb-1">Adventure starts here 🚀</h2>
           <p class="card-text mb-2">Make your app management easy and fun!</p>
-          <form class="auth-register-form mt-2" action="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/index.html" method="POST">
+          <form class="auth-register-form mt-2" action="#" method="POST">
             <div class="form-group">
               <label class="form-label" for="register-username">Username</label>
               <input class="form-control" id="register-username" type="text" name="register-username" placeholder="johndoe" aria-describedby="register-username" autofocus="" tabindex="1"/>
