@@ -71,4 +71,9 @@ class PagesController extends Controller
     public function invoiceEdit(){
         return view('pages.invoice.edit');
     }
+
+    public function inspects(){
+        $carousels = \DB::table('inspections')->get();
+        return view('pages.inspect.list', compact('carousels'));
+    }
 }

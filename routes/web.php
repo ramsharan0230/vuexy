@@ -36,3 +36,5 @@ Route::get('invoice-add', 'PagesController@invoiceAdd')->name('invoice-add');
 Route::get('invoice-preview', 'PagesController@invoicePreview')->name('invoice-preview');
 Route::get('invoice-edit', 'PagesController@invoiceEdit')->name('invoice-edit');
 
+Route::get('inspections', 'PagesController@inspects')->name('inspections');
+
